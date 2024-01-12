@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <script>
+    document.getElementById('davaToday').valueAsDate = new Date();
+  </script>
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/media.css">
+  <title>RAVEL</title>
+</head>
+<body id="home">
+  <div class="wrapper">
+    <header>
+      <div class="navbar">
+        <a href="#"><img src="img/logo.svg" alt="logo"></a>
+
+        <i class='bx bx-list-ul' id="navbar_btn" style="cursor: pointer"></i>
+
+        <nav id="navbar_main">
+          <a href="#destination">Destination</a>
+          <a href="#">Offer</a>
+          <a href="#">Tour</a>
+          <a href="#">Blog</a>
+        </nav>
+        <div id="navbar_ac">
+          <a href="/registration_block/index.php"><i class='bx bx-user'></i></a>
+          <a href="/registration_block/index.php"></i>My account</a>
+          <p>|</p>
+          <div class="searcher_wrap">
+            <a id="searcher_btn"><i class='bx bx-search' ></i></a>
+
+            <form action="search">
+              <input type="text" placeholder="..." class="searcher">
+            </form>
+          </div>
+        </nav> 
+      </div>
+      <i class='bx bx-x' id="exit_btn" style="cursor: pointer;"></i>
+    </header>
+
+    <section id="first1">
+
+      <div class="first_wrapper">
+        <div class="banner_wrapper">
+          <div class="banner_1 banner banner_pers active">
+            <div class="banner_text">
+              <h1>It’s Time To <br>Explore The World</h1>
+              <button class="Plan_Your_Trip">Plan Your Trip</button>
+            </div>
+          </div>
+          <div class="banner_2 banner banner_pers">
+            <div class="banner_text">
+              <h1 style>It’s Time To <br>Explore The World</h1>
+              <button class="Plan_Your_Trip">Plan Your Trip</button>
+            </div>
+          </div>
+          <div class="banner_3 banner banner_pers">
+            <div class="banner_text">
+              <h1>It’s Time To <br>Explore The World</h1>
+              <button class="Plan_Your_Trip">Plan Your Trip</button>
+            </div>
+          </div>
+
+          <div class="banners_digit">
+
+            <div class="banner_digits_wrap">
+      
+              <div class="arrows_wrapper">
+                <div class="destination_arrows_wrap">
+                  <div class="arrows">
+                    <button class="slider_btn left_btn"><i class='bx bx-chevron-left'></i></button>
+                  </div>
+                  <div class="arrows">
+                    <button class="slider_btn right_btn"><i class='bx bx-chevron-right' ></i></button>
+                  </div>
+                  <div class="line_wrapper">
+                    <img src="img/line.png" alt="line grey">
+                  </div>
+                  <div class="countNumber count">01</div>
+                </div>
+              </div>
+              
+              <div class="destination_block_wrap" id="destination">
+                <div class="destination_block">
+                  <div class="destination">
+          
+                        <div class="destination_first_second">
+                          <div class="item__block ">
+                            <div class="title__item title__btn">Destinations</div>
+                            <div class="destination__select">
+                              <select name="" id="" class="destination__item">
+                                <option value="Arab Egypt" class="destination__item">Arab Egypt</option>
+                                <option value="Arab Egypt" class="destination__item">Kazakhstan</option>
+                                <option value="Arab Egypt" class="destination__item">Russia</option>
+                                <option value="Arab Egypt" class="destination__item">Uzbekistan</option>
+                              </select>
+                            </div>
+                          </div>
+                          
+                          <div class="item__block item_date">
+                            <div class="title__item">Check In</div>
+                            <div class="destination__select">
+                              <input type="date" name="Date" id="davaToday" placeholder="01.01.2024" class="destination__item">
+                            </div>
+                          </div>
+          
+                        </div>
+          
+                        <div class="destination_third_fourth">
+          
+                          <div class="item__block ">
+                            <div class="title__item">Price Range</div>
+                            <div class="destination__select">
+                              <input type="price" name="price" id="price" placeholder="$500 - $10,000" class="destination__item">
+                            </div>
+                          </div>
+          
+                          <div class="item__block ">
+                            <button class="item__btn">Discover Now</button>
+                          </div>
+                          
+                        </div>
+                        
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+
+        </div>
+  
+      </div>
+
+    </section>
+
+    <section id="second2">
+      <div class="second2_wrapper">
+        <div class="second_block_digits">
+
+          <div class="second_one-two">
+            <div class="block">
+              <img src="img/icon (1).png" alt="map">
+              <h3>Choose Destination</h3>
+              <p class="product">Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+            <div class="block">
+              <img src="img/binocular 1.png" alt="map">
+              <h3>Explore The Place</h3>
+              <p class="product">Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+          </div>
+
+          <div class="second_three-four">
+            <div class="block">
+              <img src="img/backpack 1.png" alt="map">
+              <h3>Start Your Journey</h3>
+              <p class="product">Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+            <div class="block">
+              <img src="img/ukelele 1.png" alt="map">
+              <h3>Let’s Enjoy</h3>
+              <p class="product">Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="third3">
+      <div class="third3">
+        <div class="third3_dest_digits">
+          <div class="third3_first">
+            <div class="block text-block">
+              <h1>Top <span>Destinations</span> In The World</h1>
+              <p class="product product_rep">It is a long established fact that a reader will be the distracted by the readable content of a page when looking at its layout from it.</p>
+              <button class="item__btn">Discover More</button>
+            </div>
+          </div>
+
+            <img src="img/place 1.png" alt="destination">
+            <img src="img/place 2.png" alt="destination">
+            <img src="img/place 3.png" alt="destination">
+            
+        </div>
+      </div>
+    </section>
+
+    <section id="fourth4">
+      <div class="fourth4">
+        <div class="container">
+          <div class="offers_wrapper">
+            <div class="offer__digit pass_offer__digit">
+              <img src="img/lighthouse.png" alt="lighthouse">
+            </div>
+            <div class="offer__digit">
+
+              <h1>We Offering In Total 793 Tours Out The World</h1>
+
+              <div class="offer_items first___offer">
+                <div class="items__main">
+                  <img src="img/user.png" class="offer_svg user_svg" alt="user">
+                  <p>Best Travel Guide Always For Your Services</p>
+                </div>
+                <p class="product">Travel has helped us to understandsa the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes. Travel has helped us to understand the meaning of life</p>
+              </div>
+
+              <img src="img/Rectangle 22.png" class="line__2" alt="line">
+
+              <div class="offer_items">
+                <div class="items__main">
+                  <img src="img/ithernet.png" class="offer_svg ethernet_svg" alt="ethernet">
+                  <p>Best Travel Guide Always For Your Services</p>
+                </div>
+              </div>
+
+              <img src="img/Rectangle 22.png" class="line__2" alt="line">
+
+              <div class="offer_items">
+                <div class="items__main">
+                  <img src="img/headphones.png" class="offer_svg head_svg" alt="headphones">
+                  <p>Best Travel Guide Always For Your Services</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
