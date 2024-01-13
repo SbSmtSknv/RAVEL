@@ -556,3 +556,22 @@ option {
 .fifth5 {
   margin-top: 200px;
 }
+
+.view_btn button {
+  width: 240px;
+  height: 64px;
+  background-color:#FF715B;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.view_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
