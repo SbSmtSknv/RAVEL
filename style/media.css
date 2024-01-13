@@ -72,9 +72,6 @@
 }
 
 @media(max-width: 1024px) {
-  #fifth5 {
-    padding-top: 200px;
-  }
   .fifth__offer-digits {
     padding: 0;
   }
