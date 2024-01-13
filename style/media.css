@@ -25,6 +25,20 @@
 }
 
 @media(max-width: 1440px) {
+  .t__offer-digit {
+    width: 400px;
+  }
+
+  .fifth__offer-digits {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+
+  .figure_img, .secondfigure_img {
+    display: none;
+  }
   .wrapper {
     padding: 60px;
   }
@@ -58,6 +72,12 @@
 }
 
 @media(max-width: 1024px) {
+  #fifth5 {
+    padding-top: 200px;
+  }
+  .fifth__offer-digits {
+    padding: 0;
+  }
   .banner {
     background-size: cover;
     width: 100%;

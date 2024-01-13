@@ -383,7 +383,7 @@ option {
 }
 
 .pass_offer__digit img {
-  padding: 20px;
+  padding: 40px;
 }
 
 .items__main {
@@ -452,4 +452,103 @@ option {
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
+}
+
+.information__block {
+  border: 2px solid #f8f8f8;
+  padding: 10px 30px;
+  width: 400px;
+  height: 105px;
+}
+
+.place_togo-text {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 49px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.info__offer-btn button {
+  width: 50px;
+  height: 50px;
+  background-color: #FF715B;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.information__block {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__offer {
+  display: flex;
+  flex-direction: column;
+}
+
+.starts__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.info__offer-digit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__offer-digit span {
+  color:#FF715B;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.info__offer-placer {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.t__offer-digit {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.figure_img {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 30px;
+}
+
+.information__block-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  bottom: 0;
+}
+
+.secondfigure_img {
+  display: flex;
+  justify-content: start;
+  padding-bottom: 30px;
+}
+
+.fifth__offer-digits {
+  padding: 2%;
+  gap: 2%;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
 }
