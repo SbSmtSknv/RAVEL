@@ -143,6 +143,13 @@
 }
 
 @media(max-width: 768px) {
+  .text-block h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .product_rep {
+    font-size: 14px;
+  }
   .offer__digit {
     width: 600px;
   }
